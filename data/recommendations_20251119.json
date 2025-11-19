@@ -1,0 +1,128 @@
+[
+  {
+    "sku": "SKU-C",
+    "recommended_qty": 60,
+    "reorder_by_date": "2025-11-19",
+    "confidence": 0.65,
+    "rationale": "Demand (avg daily) \u2248 12.21. Using lead time 3 days and demand volatility (sigma) \u2248 12.08, safety stock \u2248 34.5. Reorder point \u2248 71.2. Current stock is 60.0, so recommended order is 60 units to top up to target 120.0.",
+    "debug": {
+      "sku": "SKU-C",
+      "avg_daily": 12.214285714285714,
+      "sigma": 12.084182741396814,
+      "lead_time_days": 3,
+      "safety_stock": 34.5351904854763,
+      "reorder_point": 71.17804762833345,
+      "current_stock": 60.0,
+      "target_stock": 120.0,
+      "recommended_qty": 60,
+      "as_of_date": "2025-11-19",
+      "reorder_reason": "current_stock_below_reorder_point",
+      "pack_size": 1
+    }
+  },
+  {
+    "sku": "SKU-D",
+    "recommended_qty": 295,
+    "reorder_by_date": "2025-11-19",
+    "confidence": 0.99,
+    "rationale": "Demand (avg daily) \u2248 0.64. Using lead time 21 days and demand volatility (sigma) \u2248 0.84, safety stock \u2248 6.4. Reorder point \u2248 19.9. Current stock is 5.0, so recommended order is 295 units to top up to target 300.0.",
+    "debug": {
+      "sku": "SKU-D",
+      "avg_daily": 0.6428571428571429,
+      "sigma": 0.8418973861410951,
+      "lead_time_days": 21,
+      "safety_stock": 6.365796523972105,
+      "reorder_point": 19.865796523972108,
+      "current_stock": 5.0,
+      "target_stock": 300.0,
+      "recommended_qty": 295,
+      "as_of_date": "2025-11-19",
+      "reorder_reason": "current_stock_below_reorder_point",
+      "pack_size": 1
+    }
+  },
+  {
+    "sku": "SKU-B",
+    "recommended_qty": 190,
+    "reorder_by_date": "2025-11-19",
+    "confidence": 0.99,
+    "rationale": "Demand (avg daily) \u2248 3.00. Using lead time 14 days and demand volatility (sigma) \u2248 1.30, safety stock \u2248 8.0. Reorder point \u2248 50.0. Current stock is 10.0, so recommended order is 190 units to top up to target 200.0.",
+    "debug": {
+      "sku": "SKU-B",
+      "avg_daily": 3.0,
+      "sigma": 1.3008872711759838,
+      "lead_time_days": 14,
+      "safety_stock": 8.031332871467095,
+      "reorder_point": 50.03133287146709,
+      "current_stock": 10.0,
+      "target_stock": 200.0,
+      "recommended_qty": 190,
+      "as_of_date": "2025-11-19",
+      "reorder_reason": "current_stock_below_reorder_point",
+      "pack_size": 1
+    }
+  },
+  {
+    "sku": "SKU-A",
+    "recommended_qty": 115,
+    "reorder_by_date": "2025-11-19",
+    "confidence": 0.99,
+    "rationale": "Demand (avg daily) \u2248 11.64. Using lead time 7 days and demand volatility (sigma) \u2248 6.58, safety stock \u2248 28.7. Reorder point \u2248 110.2. Current stock is 35.0, so recommended order is 115 units to top up to target 150.0.",
+    "debug": {
+      "sku": "SKU-A",
+      "avg_daily": 11.642857142857142,
+      "sigma": 6.58211028654001,
+      "lead_time_days": 7,
+      "safety_stock": 28.73413441830518,
+      "reorder_point": 110.23413441830519,
+      "current_stock": 35.0,
+      "target_stock": 150.0,
+      "recommended_qty": 115,
+      "as_of_date": "2025-11-19",
+      "reorder_reason": "current_stock_below_reorder_point",
+      "pack_size": 1
+    }
+  },
+  {
+    "sku": "SKU-E",
+    "recommended_qty": 20,
+    "reorder_by_date": "2025-11-19",
+    "confidence": 0.5,
+    "rationale": "Demand (avg daily) \u2248 4.86. Using lead time 10 days and demand volatility (sigma) \u2248 2.07, safety stock \u2248 10.8. Reorder point \u2248 59.4. Current stock is 80.0, so recommended order is 20 units to top up to target 100.0.",
+    "debug": {
+      "sku": "SKU-E",
+      "avg_daily": 4.857142857142857,
+      "sigma": 2.070196678027064,
+      "lead_time_days": 10,
+      "safety_stock": 10.80178556668163,
+      "reorder_point": 59.3732141381102,
+      "current_stock": 80.0,
+      "target_stock": 100.0,
+      "recommended_qty": 20,
+      "as_of_date": "2025-11-19",
+      "reorder_reason": "within_lead_time",
+      "pack_size": 1
+    }
+  },
+  {
+    "sku": "SKU-F",
+    "recommended_qty": 160,
+    "reorder_by_date": "2025-11-19",
+    "confidence": 0.99,
+    "rationale": "Demand (avg daily) \u2248 8.86. Using lead time 5 days and demand volatility (sigma) \u2248 3.48, safety stock \u2248 12.9. Reorder point \u2248 57.1. Current stock is 20.0, so recommended order is 160 units to top up to target 180.0.",
+    "debug": {
+      "sku": "SKU-F",
+      "avg_daily": 8.857142857142858,
+      "sigma": 3.4830831359397743,
+      "lead_time_days": 5,
+      "safety_stock": 12.850877594353385,
+      "reorder_point": 57.13659188006768,
+      "current_stock": 20.0,
+      "target_stock": 180.0,
+      "recommended_qty": 160,
+      "as_of_date": "2025-11-19",
+      "reorder_reason": "current_stock_below_reorder_point",
+      "pack_size": 1
+    }
+  }
+]

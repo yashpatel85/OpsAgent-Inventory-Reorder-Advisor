@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  ui:
+    image: opsagent:latest
+    container_name: opsagent_ui
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
+  api:
+    image: opsagent:latest
+    container_name: opsagent_api
+    command: ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
