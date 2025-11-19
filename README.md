@@ -101,6 +101,8 @@ Creates an audit trail of reorder logic
 Fits directly into procurement workflows via API + CSV exports
 
 📁 Project Structure
+
+
 opsagent/
 │
 ├── app/
@@ -133,6 +135,8 @@ opsagent/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
+
+
 
 📦 Installation
 Option A — Run with Python
