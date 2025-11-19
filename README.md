@@ -30,6 +30,7 @@ Example scripts (batch generation, reorder CLI, plotting)
 
 This project demonstrates how an intern or early engineer can design, build, and deliver a real-world AI tool used inside a fast-moving supply-chain environment.
 
+
 🧠 What the Agent Does
 
 Given:
@@ -73,6 +74,7 @@ Generates a human-friendly rationale:
 If OpenAI API available → concise LLM explanation
 
 Otherwise fallback → deterministic template
+
 
 🧩 Why this matters for D2C operations
 
