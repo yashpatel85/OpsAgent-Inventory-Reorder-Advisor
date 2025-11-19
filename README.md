@@ -103,38 +103,8 @@ Fits directly into procurement workflows via API + CSV exports
 📁 Project Structure
 
 
-opsagent/
-│
-├── app/
-│   ├── data_utils.py
-│   ├── heuristics.py
-│   ├── backtest.py
-│   ├── api.py                 ← FastAPI service
-│   ├── ui_streamlit.py        ← Main UI
-│   └── __init__.py
-│
-├── scripts/
-│   ├── generate_d2c_sample_data.py
-│   ├── run_reorder.py
-│   ├── explore.py
-│   ├── backtest_run.py
-│   ├── plot_backtest.py
-│   └── generate_sample_data.py (old default dataset)
-│
-├── data/
-│   ├── sales_history.csv
-│   ├── suppliers.csv
-│   └── plots/
-│
-├── tests/
-│   ├── test_heuristics.py
-│   ├── test_backtest.py
-│   └── test_pack_rounding.py
-│
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
+<img width="375" height="650" alt="image" src="https://github.com/user-attachments/assets/d4a1f0b7-6644-476a-a5e4-de813f86677b" />
+
 
 
 
